@@ -3,6 +3,10 @@
 The **File Integrity Monitoring System** is a robust and secure application built using WPF (Windows Presentation Foundation) and C# to ensure the integrity of critical files by leveraging the SHA-256 hashing algorithm. This system is designed to detect unauthorized changes to essential files, maintain detailed logs of file modifications, and empower administrators to review and analyze the history of changes.
 
 
+https://github.com/ShouryaSrivastava01/FIM-File_Integrity_Manager/assets/72685413/f08abb31-0a3b-423e-ad20-b2f3fe7fdb9f
+
+
+
 ## Features
 
 1. **SHA-256 Hashing**: The system utilizes the SHA-256 hashing algorithm to generate unique cryptographic hash values for each critical file. This ensures that any unauthorized changes to these files are immediately detectable.
