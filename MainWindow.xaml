@@ -1,0 +1,12 @@
+﻿<Window x:Class="FileIntegrityMonitoring.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="File Integrity Monitoring" Height="400" Width="600">
+    <Grid>
+        <Button Name="btnSelectDirectory" Content="Select Directory" Click="btnSelectDirectory_Click" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnStartMonitoring" Content="Start Monitoring" Click="btnStartMonitoring_Click" HorizontalAlignment="Left" Margin="140,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnViewLog" Content="View Log" Click="btnViewLog_Click" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <DataGrid Name="dgFileChanges" HorizontalAlignment="Stretch" Margin="10,50,10,10" VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>
